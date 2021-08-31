@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/*---------- MY VARIABLES CSS ----------*/
+:root {
+--first-color: hsl(190, 64%, 22%);
+--second-color: #131313;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  font-weight: bolder;
+  z-index: 999;
+}
+
+#navbarSupportedContent {
+  padding-right: 100px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+  color: var(--first-color);
+  font-size: 1.5rem;
+  padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+  color: var(--second-color); 
+}
+
+#navbarSupportedContent > button{
+  background: var(--first-color);
+  font-weight: 600;
+  padding: 0.4rem;
+  border-radius: 30px;
+  color: #fff;
+}
+
+#navbarSupportedContent > button:hover{
+  color: var(--second-color);
+}
+
+
+.mid{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.mid video{
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  object-fit: cover;
+  position: absolute;
+}
+
+.hero {
+  position: relative;
+}
+
+section .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+
+section .text h2{
+  color: var(--first-color);
+  font-weight: 800;
+  font-size: 2.7rem;
+  letter-spacing: 2px;
+
+}
+
+section .text p{
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+section .text a{
+  background: var(--first-color);
+  font-weight: 600;
+  padding: 0.4rem;
+  border-radius: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (max-width: 991px)
+{
+  .navbardown
+   {
+      margin-left: 120px;
+      position: relative;
+      top: 300px;
+   }
+   #navbarSupportedContent > ul > li:nth-child(n) > a
+   {
+      color: #fff;
+   }
+}
+
+
+
+
+
