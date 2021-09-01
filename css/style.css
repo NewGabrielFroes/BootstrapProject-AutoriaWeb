@@ -113,7 +113,9 @@ section .text a{
   text-decoration: none;
 }
 
-
+body > header > div > nav > div > nav > div > button {
+  color: #131313;
+}
 
 
 
