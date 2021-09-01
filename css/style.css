@@ -114,19 +114,6 @@ section .text a{
 }
 
 
-@media (max-width: 991px)
-{
-  .navbardown
-   {
-      margin-left: 120px;
-      position: relative;
-      top: 300px;
-   }
-   #navbarSupportedContent > ul > li:nth-child(n) > a
-   {
-      color: #fff;
-   }
-}
 
 
 
